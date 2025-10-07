@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Ice Cream Shop - Social Media Ad Campaign</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .campaign-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .campaign-title {
+            color: #ff6b6b;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .weather-alert {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 20px 0;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(255, 165, 0, 0.3);
+        }
+        
+        .ad-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 3px solid #4ecdc4;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .ad-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .ad-images img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .ad-images img:hover {
+            transform: scale(1.05);
+        }
+        
+        .headline {
+            font-size: 2.2em;
+            color: #ff6b6b;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .body-copy {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 25px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .feature {
+            background: linear-gradient(45deg, #4ecdc4, #45b7d1);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .cta-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .cta-button {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.6);
+        }
+        
+        .targeting-info, .campaign-metrics {
+            background: #f8f9fa;
+            border-left: 5px solid #4ecdc4;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .metric {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+        }
+        
+        @media (max-width: 768px) {
+            .campaign-title {
+                font-size: 2em;
+            }
+            
+            .headline {
+                font-size: 1.8em;
+            }
+            
+            .ad-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="campaign-container">
+        <div class="header">
+            <h1 class="campaign-title">🍦 MIAMI ICE CREAM SHOP 🌴</h1>
+            <h2>Social Media Ad Campaign</h2>
+            
+            <div class="weather-alert">
+                ☀️ PERFECT ICE CREAM WEATHER ALERT! ☀️<br>
+                Miami: 80°F • Few Clouds • Feels Like 85°F
+            </div>
+        </div>
+
+        <div class="ad-section">
+            <h2 class="headline">80°F in Miami = Perfect Ice Cream Weather! 🌴</h2>
+            
+            <div class="ad-images">
+                <img src="../output/hand_holding_a_triple_scoop.png" alt="Hand holding triple scoop ice cream in Miami">
+                <img src="../output/a_vibrant_and_colorful_ice.png" alt="Vibrant colorful ice cream display">
+                <img src="../output/close_up_shot_of_colorful.png" alt="Close up of colorful tropical ice cream">
+                <img src="../output/overhead_view_of_multiple_tropical.png" alt="Overhead view of tropical ice cream flavors">
+                <img src="../output/wide_angle_view_of_a.png" alt="Wide angle ice cream shop in Miami">
+            </div>
+            
+            <div class="body-copy">
+                <p><strong>Miami's hitting a sweet 80°F today with beautiful skies! ☀️</strong></p>
+                
+                <p>There's no better time to treat yourself to our tropical ice cream flavors. From coconut mango to key lime pie, we've got the perfect scoop to cool you down!</p>
+                
+                <div class="features">
+                    <div class="feature">🌴 Fresh Tropical Flavors Daily</div>
+                    <div class="feature">🍦 Handcrafted Premium Ingredients</div>
+                    <div class="feature">📍 Heart of Miami Location</div>
+                    <div class="feature">💨 Fast Service, No Long Waits</div>
+                </div>
+                
+                <p><strong>The weather's perfect, the vibes are right - come get your Miami ice cream fix!</strong></p>
+            </div>
+            
+            <div class="cta-section">
+                <button class="cta-button">Visit Us Today! 🍦</button>
+                <button class="cta-button">See Menu & Location 📍</button>
+                <button class="cta-button">Cool Down Now! ❄️</button>
+            </div>
+        </div>
+
+        <div class="targeting-info">
+            <h3>🎯 Targeting Strategy</h3>
+            <div class="metric-grid">
+                <div class="metric">
+                    <div class="emoji">👥</div>
+                    <strong>Primary Audience</strong><br>
+                    Miami locals & tourists<br>
+                    Ages 18-45
+                </div>
+                <div class="metric">
+                    <div class="emoji">👨‍👩‍👧‍👦</div>
+                    <strong>Secondary</strong><br>
+                    Families with children<br>
+                    Weekend visitors
+                </div>
+                <div class="metric">
+                    <div class="emoji">📱</div>
+                    <strong>Platforms</strong><br>
+                    Facebook & Instagram<br>
+                    Stories + Feed
+                </div>
+                <div class="metric">
+                    <div class="emoji">⏰</div>
+                    <strong>Optimal Times</strong><br>
+                    12PM-6PM weekends<br>
+                    3PM-8PM weekdays
+                </div>
+            </div>
+        </div>
+
+        <div class="campaign-metrics">
+            <h3>📊 Campaign Performance Expectations</h3>
+            <div class="metric-grid">
+                <div class="metric">
+                    <strong>Weather-Responsive Boost</strong><br>
+                    +40% engagement expected<br>
+                    (Perfect 80°F conditions)
+                </div>
+                <div class="metric">
+                    <strong>Seasonal Advantage</strong><br>
+                    High-demand period<br>
+                    Premium pricing opportunity
+                </div>
+                <div class="metric">
+                    <strong>Local Competition</strong><br>
+                    Stand out with fresh flavors<br>
+                    Fast service messaging
+                </div>
+                <div class="metric">
+                    <strong>Budget Recommendation</strong><br>
+                    $200-500/day<br>
+                    Peak weather periods
+                </div>
+            </div>
+        </div>
+
+        <div class="ad-section">
+            <h3>📝 Alternative Headlines for A/B Testing</h3>
+            <div class="features">
+                <div class="feature">🌡️ "80°F in Miami = Perfect Ice Cream Weather!"</div>
+                <div class="feature">🔥 "Beat the Miami Heat with Our Tropical Flavors!"</div>
+                <div class="feature">🌴 "Cool Down Miami Style - Tropical Scoops Await!"</div>
+            </div>
+            
+            <h3>🎨 Visual Strategy</h3>
+            <p><strong>All images generated feature:</strong></p>
+            <ul>
+                <li>✅ Vibrant tropical color schemes</li>
+                <li>✅ Miami-themed backgrounds with palm trees</li>
+                <li>✅ Professional food photography style</li>
+                <li>✅ Multiple serving presentations</li>
+                <li>✅ Appetizing, refreshing aesthetic</li>
+            </ul>
+        </div>
+
+        <div class="weather-alert" style="margin-top: 30px;">
+            🚀 CAMPAIGN READY TO LAUNCH! 🚀<br>
+            Weather conditions optimal • Visuals generated • Copy perfected
+        </div>
+    </div>
+</body>
+</html>
