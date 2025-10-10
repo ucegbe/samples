@@ -66,11 +66,8 @@ The sample demonstrates integration between multiple systems:
 ## Usage
 
 **Run the advertising agent:**
-```bash
-jupyter notebook agentkit-x402-strands.ipynb
-```
 
-**Execute the sample:**
+**Execute the `agentkit-x402-strands` notebook:**
 1. Open the notebook and run cells sequentially
 2. The agent will automatically:
    - Discover available services
