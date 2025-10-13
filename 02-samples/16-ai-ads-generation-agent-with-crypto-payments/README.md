@@ -36,10 +36,10 @@ The sample demonstrates integration between multiple systems:
 
 - Python **3.10+**
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) for dependency management
-- AWS CLI configured with appropriate credentials
+- [AWS CLI configured with appropriate credentials](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
 - [Model access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access-modify.html) enabled for Claude Sonnet 4
-- Coinbase Developer Platform account (testnet)
-- OpenWeather API key
+- [Coinbase Developer Platform account](https://docs.cdp.coinbase.com/get-started/quickstart) (testnet)
+- [OpenWeather API key](https://openweathermap.org/guide)
 - **⚠️ TESTNET ONLY**: Base Sepolia testnet wallet with test USDC
 
 ## Setup
