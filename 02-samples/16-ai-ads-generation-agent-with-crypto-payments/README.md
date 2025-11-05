@@ -35,9 +35,8 @@ The sample demonstrates integration between multiple systems:
 ## Prerequisites
 
 - Python **3.10+**
-- [uv](https://docs.astral.sh/uv/getting-started/installation/) for dependency management
 - [AWS CLI configured with appropriate credentials](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
-- [Model access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access-modify.html) enabled for Claude Sonnet 4
+- [Model access](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-prereq.html) for Claude Sonnet 4 on Amazon Bedrock
 - [Coinbase Developer Platform account](https://docs.cdp.coinbase.com/get-started/quickstart) (testnet)
 - [OpenWeather API key](https://openweathermap.org/guide)
 - **⚠️ TESTNET ONLY**: Base Sepolia testnet wallet with test USDC
@@ -48,8 +47,8 @@ The sample demonstrates integration between multiple systems:
    ```bash
    cp .env.example .env
    # Edit .env with your configuration:
-   # - CDP_API_KEY_ID, CDP_API_KEY_SECRET, CDP_WALLET_SECRET (Coinbase testnet)
-   # - ADDRESS (Base Sepolia testnet receiving address)
+   # - CDP_API_KEY_ID, CDP_API_KEY_SECRET, CDP_WALLET_SECRET (Coinbase Developer credentials)
+   # - ADDRESS (Receiving Address of payment)
    # - OPENWEATHER_API_KEY
    ```
 
@@ -89,8 +88,8 @@ response = advertising_agent("""Generate an ad for:
 
 The agent produces:
 - Weather-responsive ad copy based on real-time conditions
-- AI-generated tropical imagery for campaigns  
-- Complete HTML files with embedded visuals
+- AI-generated tropical imagery for campaigns  stored in `output` dir
+- Complete HTML files with embedded visuals stored in `ad-creative` dir
 - Multi-platform advertising assets (social media, display, email)
 
 ## Troubleshooting
