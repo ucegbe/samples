@@ -37,7 +37,7 @@ The sample demonstrates integration between multiple systems:
 - Python **3.10+**
 - [AWS CLI configured with appropriate credentials](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html)
 - [Model access](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-prereq.html) for Claude Sonnet 4 on Amazon Bedrock
-- [Coinbase Developer Platform account](https://docs.cdp.coinbase.com/get-started/quickstart) (testnet)
+- [Coinbase Developer Platform account](https://docs.cdp.coinbase.com/get-started/quickstart) to get your coinbase API credentials and Wallet secret.
 - [OpenWeather API key](https://openweathermap.org/guide)
 - **⚠️ TESTNET ONLY**: Base Sepolia testnet wallet with test USDC
 
