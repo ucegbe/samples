@@ -19,6 +19,8 @@ An AI agent that creates complete advertising campaigns while autonomously payin
 
 ### Architecture
 
+![Ads Agent Architecture](images/diagram.png)
+
 The sample demonstrates integration between multiple systems:
 - **Strands AI Framework** → Agent reasoning and tool orchestration
 - **Coinbase AgentKit** → Blockchain wallet and transaction management  
