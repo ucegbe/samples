@@ -10,7 +10,7 @@ An AI agent that creates complete advertising campaigns while autonomously payin
 |------------------------|------------------------------------------------------------|
 | **Agent Architecture** | Single-agent                                               |
 | **Native Tools**       | image_reader                                               |
-| **Custom Tools**       | list_available_services, get_service_schema, create_ad_html |
+| **Custom Tools**       | list_available_services, get_service_schema, create_ad_html, Agentkit_action_providers |
 | **MCP Servers**        | None                                                       |
 | **Use Case Vertical**  | Marketing & Advertising                                    |
 | **Complexity**         | Advanced                                                   |
